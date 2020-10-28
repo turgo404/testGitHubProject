@@ -1,0 +1,1027 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+#audilaunch{
+    width:100%;
+    margin: 0 auto;
+}
+
+#audilogo{
+    width: 75px;
+    height: 23px;
+}
+
+.uppernav{
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    position: relative;
+   
+}
+
+.navigation{
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    position: relative;
+}
+
+.navmenue{
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+}
+
+.uppernav nav{
+    margin-left: 100px;
+    
+}
+
+.uppernav ul{
+    margin-top: 7px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.uppernav nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 13px;
+    font-family: Arial,sans-serif;
+    text-align: center;
+    
+}
+
+#reverseoh{
+    color: lightgray;
+    transition: all 0.3s ease-in 0s;
+}
+
+#reverseoh:hover{
+    color: white;
+}
+
+.uppernav li, .navigation li {
+    display: inline;
+    margin-top: 15px;
+}
+
+.onhover{
+    transition: all 0.3s ease-in 0s;
+}
+
+.onhover:hover{
+    color: lightgray;
+}
+
+.navigation a{
+    float:left;
+    display: block;
+    margin: 0px 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.downnav ul li a{
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+    font-family: Arial, sans-serif;
+}
+
+.downnav{
+    padding-top:25px;
+    margin-left: 80px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+
+  
+.centered h4{
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: AudiType-ExtendedBold,Helvetica,Arial,sans-serif;
+    font-size: 68px;
+    text-align: center;
+}
+
+.centered h3{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: AudiType-ExtendedBold,Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.btnoimg{
+    position: absolute;
+    top: 63%;
+    left: 42%;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    min-width: 242px;
+    min-height: 65px;
+    text-align: center;
+    border-style: groove;
+    font-size: 18px;
+    transform: rotateX(0deg);
+    transition: transform 0.3s linear 0.1s;
+    line-height: 60px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.btnoimg:active{
+    transform: rotateX(90deg);
+}
+
+.btnoimg:hover{
+    border-color: lightgrey;
+    color:lightgrey;
+    transition: all 0.3s linear 0.1s;
+}
+
+
+
+.txtoverimage{
+    height: 475px;
+    overflow: hidden;
+}
+
+#headpic{
+    transition: all 0.25s ease-in 0.1s;
+    width: 100%;
+}
+
+.txtoverimage:hover #headpic{
+    transform: scale(1.1);
+    filter: brightness(70%);
+}
+
+.upperrightnav{
+    margin-left:1100px;
+}
+
+.navigation input[type=search]{
+    position: absolute;
+    top: 17.5%;
+    left: 75%;
+    width: 4%;
+    height: 40px;
+    border-width: 0px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.navigation input[type=search]:focus {
+    width: 67%;
+    left: 12%;
+    border-width: 0px;
+    border-bottom: 1px;
+}
+
+#searchicon{
+    position: absolute;
+    top: 30%;
+    left: 72%;
+    width: 30px;
+    height: 30px;
+    
+}
+
+#bgflagicon{
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border-width: 5px;
+    border-color: black;
+}
+
+
+#bgparagraph{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    top: 50%;
+    left: 84%;
+}
+
+#countrylabel{
+    color:lightgray;
+    position: absolute;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 25%;
+    left: 84%;
+}
+
+#contactnav {
+    margin-left: 28px;
+
+}
+
+.uppersection{
+    position: relative;
+    height: 2900px;
+    width: 100%;
+}
+
+.uppersection h1{
+    position: absolute;
+    left: 30%;
+    top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72px;
+}
+
+.uppersection p{
+    position: absolute;
+    left: 25%;
+    top: 230px;
+    right: 25%;
+    
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#blancspace{
+    height: 90px;
+    width: 100%;
+}
+
+.upperleftimg{
+    position: absolute;
+    width: 43%;
+    height: 600px;
+    top: 380px;
+    left: 7%;
+    overflow: hidden;
+}
+
+#imgwarper{
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+}
+
+.upperleftimg img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.upperleftimg a , .upperrightimg a{
+    text-decoration: none;
+    
+}
+
+.upperrightimg{
+    position: absolute;
+    width: 43%;
+    height: 600px;
+    top: 380px;
+    left: 50.5%;
+    overflow: hidden;
+}
+
+.upperrightimg img{
+    width: 100%;
+    height: 100%;
+}
+
+#ulimg, #urimg, #drimg, #dlimg{
+    margin: 0 auto;
+    transition: all 0.25s ease-in 0.1s;
+}
+
+.upperleftimg:hover #ulimg, .upperrightimg:hover #urimg, .downleftimg:hover #dlimg, .downrightimg:hover #drimg{
+    transform: scale(1.1);
+    filter: brightness(70%);
+}
+
+#graytext{  
+    color: lightgray;
+    font-size: 14px;
+    position: absolute;
+    top: 72%;
+    left: 3%;
+    
+}
+
+.upperrightimg h2, .upperleftimg h2, .downrightimg h2, .downleftimg h2{
+    position: absolute;
+    top: 75%;
+    left: 3%;
+    color: black;
+}
+
+#sectiondivsp{
+    position: absolute;
+    width:90%;
+    top: 81.5%;
+    left: 3%;
+    color: black;
+    text-align: Left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.downrightimg{
+    position: absolute;
+    width: 43%;
+    height: 600px;
+    top: 1000px;
+    left: 50.5%;
+    overflow: hidden;
+}
+
+.downleftimg{
+    position: absolute;
+    width: 43%;
+    height: 600px;
+    top: 1000px;
+    left: 7%;
+}
+
+.audiladypart{
+    position: absolute;
+    width: 50%;
+    top: 1700px;
+    left: 7%;
+    overflow: hidden;
+}
+
+.audiladypart img{
+    width: 100%;
+}
+
+.audiladytext{
+    position: absolute;
+    width: 40%;
+    top: 1775px;
+    left: 59%;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.audiladytext p{
+    position: absolute;
+    width: 85%;
+    top: 40px;
+    left: 0%;
+    text-align: left;
+}
+
+.audiladytext a{
+    position: absolute;
+    width: 85%;
+    top: 150px;
+    left: 0%;
+    
+}
+
+.audiladybutton{
+    background-color: transparent;
+    color: black;
+    border-color: black;
+    min-width: 260px;
+    min-height: 50px;
+    text-align: center;
+    border:1px;
+    border-style: groove;
+    font-size: 18px;
+    transition: transform 0.3s linear 0.1s;
+    line-height: 60px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.audiladybutton:hover{
+    border-color: lightgrey;
+    color:lightgrey;
+    transition: all 0.3s linear 0.1s;
+}
+
+.audiladytext span{
+    position: absolute;
+    top: 60%;
+}
+
+.audiladytext hr{
+    position: absolute;
+    left: 0%;
+    right: 10%;
+    top: 230px;
+}
+
+.audiladytext span{
+    position: absolute;
+    left: 0%;
+    top: 250px;
+    font-size: 12px;
+}
+
+#spancont{
+    top: 270px;
+}
+
+.lowersectionleft{
+    position: absolute;
+    top: 2300px;
+    left: 7%;
+    width: 28%;
+    height: 600px;
+}
+
+.lowersectionleft img, .lowersectioncenter img, .lowersectionright img{
+    width: 100%;
+    transition: all 0.25s ease-in 0.1s;
+    
+}
+
+#lsimgwarper{
+    overflow: hidden;
+}
+
+.lowersectionleft:hover img, .lowersectioncenter:hover img, .lowersectionright:hover img{
+    transform: scale(1.1);
+    filter: brightness(70%);
+}
+
+#lsgraytext{
+    color: lightgray;
+    font-size: 14px;
+    position: absolute;
+    top: 55%;
+    left: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lowersectionleft h2, .lowersectioncenter h2, .lowersectionright h2{
+    position: absolute;
+    left: 3%;
+    top: 58%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+#lsparagraph{
+    position: absolute;
+    left: 3%;
+    top: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.lowersectioncenter{
+    position: absolute;
+    top: 2300px;
+    left: 35.5%;
+    width: 28%;
+    height: 600px;
+}
+
+.lowersectionright{
+    position: absolute;
+    top: 2300px;
+    left: 64%;
+    width: 28%;
+    height: 600px;
+}
+
+.lastdiv{
+    position: relative;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+}
+
+.lastdivtexts{
+    position: absolute;
+    top: 30%;
+    left: 57%;
+    right: 7%;
+    color: white;
+}
+
+.lastdiv #backimglws{
+    width: 100%;
+    filter: brightness(40%);
+}
+
+#backimglws{
+transition: all 0.25s ease-in 0.1s;
+}
+
+.lastdiv:hover #backimglws{
+    transform: scale(1.1);
+}
+
+#football{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+.lastdivtexts span, .lastdivtexts h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#uniqueid{
+    height: 10px;
+    background-color: blue;
+}
+
+.lastdivimg{
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    width: 48%;
+    overflow: hidden;
+}
+
+.lastdivimg img{
+    width: 100%;
+}
+
+.lastdivbtnoimg{
+    position: absolute;
+    top: 110%;
+    left: 0%;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    min-width: 242px;
+    min-height: 65px;
+    text-align: center;
+    border-style: groove;
+    font-size: 18px;
+    transform: rotateX(0deg);
+    transition: transform 0.3s linear 0.1s;
+    line-height: 60px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lastdivbtnoimg:active{
+    transform: rotateX(90deg);
+}
+
+.lastdivbtnoimg:hover{
+    border-color: lightgrey;
+    color:lightgrey;
+    transition: all 0.3s linear 0.1s;
+}
+
+.lastsection{
+    position: relative;
+    height: 750px;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+#blancdiv{
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    left: 0%;
+    right: 0%;
+    top: 3%;
+    background-color: white;
+}
+
+#auditextdiv{
+    position: absolute;
+    background-color: transparent;
+    height: 50px;
+    top: 13%;
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.discoveraudi{
+    position: absolute;
+    background-color: transparent;
+    width: 84%;
+    top: 22%;
+    right: 7%;
+    left: 7%;
+    height: 525px;
+}
+
+.companydiv{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 49.8%;
+    height: 49.5%;
+    overflow: hidden;
+}
+
+.modelsdiv{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 49.8%;
+    height: 49.5%;
+    overflow: hidden;
+}
+
+.careersdiv{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    width: 49.8%;
+    height: 49.5%;
+    overflow: hidden;
+}
+
+.expaudidiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 49.8%;
+    height: 49.5%;
+    overflow: hidden;
+}
+
+.companydiv img, .modelsdiv img, .careersdiv img, .expaudidiv img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(70%);
+}
+
+
+.companydiv p, .modelsdiv p, .careersdiv p{
+    position: absolute;
+    top: 47%;
+    left: 40%;
+    right: 45%;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    z-index: 1;
+}
+
+.expaudidiv p{
+    position: absolute;
+    top: 47%;
+    left: 34%;
+    right: 45%;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    z-index: 1;
+}
+
+.companydiv:hover img, .modelsdiv:hover img, .careersdiv:hover img, .expaudidiv:hover img{
+    transform: scale(1.1);
+    filter: brightness(50%);
+}
+
+.lastsectionimages{
+    transition: all 0.25s ease-in 0.1s;
+}
+
+.bottomdiv{
+    position: relative;
+    height: 375px;
+}
+
+.bottomdiv img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(40%);
+}
+
+.bottomdiv h1{
+    position: absolute;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 20%;
+    left: 36%;
+    z-index: 1;
+    color: white;
+}
+
+.bottomdiv input[type=search]{
+    position: absolute;
+    right: 46%;
+    top: 54%;
+    border-style: groove;
+    background-color: transparent;
+    border-color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 350px;
+    height: 45px;
+    color: white;
+}
+
+.bottomdiv p{
+    position: absolute;
+    color: white;
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    left: 31%;
+    top: 48%;
+}
+
+.bottomdiv input[type=button]{
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    right: 32%;
+    top: 54%;
+    background-color: white;
+}
+
+#abuttonintheend{
+    border: none;
+    transition: all 0.25s ease-in 0s;
+}
+
+#abuttonintheend:hover{
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+.linkholder{
+    position: absolute;
+    width: 22%;
+    height: 40px;
+    top: 200px;
+    left: 39%;
+    right: 39%;    
+}
+
+#iconwarperfb{
+    position: absolute;
+    left: 0%;
+    width: 14%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#iconwarperfb:hover, #iconwarperig:hover,#iconwarpertwit:hover, #iconwarperytube:hover, #iconwarperlinkedin:hover{
+    border-bottom: 3px solid black;
+}
+
+#iconwarperig{
+    position: absolute;
+    width: 14%;
+    height: 100%;
+    left: 21.5%;
+}
+
+#iconwarpertwit{
+    position: absolute;
+    width: 14%;
+    height: 100%;
+    left: 43%;
+}
+
+#iconwarperytube{
+    position: absolute;
+    width: 14%;
+    height: 100%;
+    left: 64.5%;
+}
+
+#iconwarperlinkedin{
+    position: absolute;
+    width: 14%;
+    height: 100%;
+    left: 86%;
+}
+
+#iconwarperfb img, #iconwarperig img, #iconwarpertwit img, #iconwarperytube img, #iconwarperlinkedin img{
+    width: 100%;
+    height: 100%;
+}
+
+#downerregion{
+    position: absolute;
+    width: 20%;
+    height: 50px;
+    top: 27%;
+    left: 5%;
+}
+
+
+
+#countrylabeldown{
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#bgparagraphdown{
+    position: absolute;
+    left: 20%;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 40%;
+}
+
+#bgflagicondown{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border-width: 5px;
+    border-color: black;
+}
+
+#upperhr{
+    position: absolute;
+    top: 350px;
+    left: 3%;
+    right: 3%;
+    width: 94%;
+}
+
+.footerlinks{
+    position: absolute;
+    top: 351px;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    height: 250px;
+}
+
+.footerlinks #leftfl{
+    position: absolute;
+    width: 25%;
+    height: 80%;
+    top: 10%;
+    bottom: 10%;
+    left: 6.25%;
+}
+
+.footerlinks #midfl{
+    position: absolute;
+    width: 25%;
+    height: 80%;
+    top: 10%;
+    bottom: 10%;
+    left: 37.5%;
+}
+
+.footerlinks #rightfl{
+    position: absolute;
+    width: 25%;
+    height: 80%;
+    top: 10%;
+    bottom: 10%;
+    left: 68.75%;  
+}
+
+.footerlinks div h3{
+    color: darkslategray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footerlinks div a {
+    text-decoration: none;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footerlinks div a:hover {
+    color: lightgray;
+    transition: all 0.3s ease-in 0s;
+}
+
+#downerhr{
+    position: absolute;
+    top: 600px;
+    left: 3%;
+    right: 3%;
+    width: 94%;
+}
+
+.footerrulebuttons{
+    position: absolute;
+    top: 630px;
+    width: 40%;
+    height: 40px;
+    left: 30%;
+    right: 30%;
+}
+
+.footerrulebuttons a{
+    position: absolute;
+    top: 20%;
+    width: 20%;
+    text-decoration: none;
+    display: inline;
+    font-family: AudiType-Normal,Helvetica,Arial,sans-serif;
+    color: gray;
+}
+
+.footerrulebuttons a:hover{
+    color: lightgray;
+    transition: all 0.3s ease-in 0s;
+}
+
+.VL{
+    border-left: 1px solid gray;
+    height: 30px;
+}
+
+#VLfirst{
+    position: absolute;
+    top: 10%;
+    left: 21%;
+}
+
+#VL2nd{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+
+#legal{
+    position: absolute;
+    left: 24%;
+    top: 20%;
+}
+
+#CookieP{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 30%;
+    
+}
+
+#VL3rd{
+    position: absolute;
+    left: 60%;
+    top: 10%;
+}
+
+#CookieOptions{
+    position: absolute;
+    left: 62%;
+    top: 20%;
+}
+
+#footerlasttext{
+    position: absolute;
+    width: 86%;
+    left: 7%;
+    right: 7%;
+    top: 700px;
+}
+
+#footerlasttext p a{
+    color: gray;
+}
+
+#footerlasttext p{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+#footerlasttext p a:hover{
+    color: lightgray;
+    transition: all 0.3s ease-in 0s;
+}
+
+.footer{
+    position: relative;
+    background-color: transparent;
+    height: 1000px;
+}
