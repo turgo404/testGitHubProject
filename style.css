@@ -1003,6 +1003,7 @@ transition: all 0.25s ease-in 0.1s;
     left: 7%;
     right: 7%;
     top: 700px;
+    background-color: orange;
 }
 
 #footerlasttext p a{
