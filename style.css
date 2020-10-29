@@ -615,7 +615,7 @@ transition: all 0.25s ease-in 0.1s;
 
 #auditextdiv{
     position: absolute;
-    background-color: transparent;
+    background-color: blue;
     height: 50px;
     top: 13%;
     width: 100%;
