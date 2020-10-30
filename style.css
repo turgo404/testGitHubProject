@@ -382,6 +382,7 @@
     width: 40%;
     top: 1775px;
     left: 59%;
+    background-color: pink;
     
     font-family: Arial, Helvetica, sans-serif;
     
@@ -615,7 +616,7 @@ transition: all 0.25s ease-in 0.1s;
 
 #auditextdiv{
     position: absolute;
-    background-color: transparent;
+    background-color: blue;
     height: 50px;
     top: 13%;
     width: 100%;
@@ -1003,6 +1004,7 @@ transition: all 0.25s ease-in 0.1s;
     left: 7%;
     right: 7%;
     top: 700px;
+    background-color: orange;
 }
 
 #footerlasttext p a{
@@ -1012,7 +1014,7 @@ transition: all 0.25s ease-in 0.1s;
 #footerlasttext p{
     color: gray;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
+    font-size: 25px;
     line-height: 20px;
 }
 
